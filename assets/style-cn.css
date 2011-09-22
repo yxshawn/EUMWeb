@@ -1,0 +1,16 @@
+/*
+	中文语言包
+	由EUM的肖轶翔设计
+	http://ezse.com
+	http://ezse.com/eum/ 
+	2011年8月
+*/
+h1,h2,h3,h4,h5,h6{
+	font-family: "Lucida Grande","Lucida Sans Unicode","微软雅黑","黑体",Helvetica,Arial,Verdana,sans-serif !important; /*哎，真不想照顾这些用IE的人*/
+}
+#main-slogan{
+	background-image: url('we-make-music-apps-cn.png') !important;
+}
+.apps{
+	background-image: url('app-desc-cn.jpg') !important;
+}
