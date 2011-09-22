@@ -131,6 +131,18 @@ div.app-main-feature.cright .right{
 	left: right;
 }
 
+span.highlight{
+	background-color:  #FF9;
+	padding: 0 5px;
+	color: #555;
+	/*font-weight: bold;*/
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	border-right: 1px solid #CC0;
+	border-bottom: 1px solid #CC0;
+}
+
 /*div.app-main-feature h2{
 	text-indent: -1000000px;
 	height: 114px;
@@ -221,6 +233,11 @@ a.works-item-link{
 	background-repeat: no-repeat;
 	background-position: top;
 }
+.small-div{
+	background-image: url('small-div.jpg');	
+	background-repeat: no-repeat;
+	background-position: top;
+}
 
 .main-slogan{
 	height: 128px;
@@ -236,6 +253,15 @@ a.works-item-link{
 	padding: 5px;
 	font-size: 16px;
 	color: #aaa;
+}
+
+.text-slogen{
+	height: 30px;
+	text-align: center;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+	font-size: 24px;
+	color: #666;
+	padding-top: 50px;
 }
 
 /* APPs*/
@@ -672,6 +698,14 @@ li.authorcomment .cmtinfo cite a{
 	margin-bottom: 18px;
 }
 
+/* Give some space for upper */
+.grid2 .column.space-up{
+	padding-top: 64px;
+}
+
+div.space24{
+	padding-top: 24px;
+}
 
 div.space48{
 	padding-top: 48px;
@@ -707,3 +741,16 @@ div.space48{
 	margin-top: 20px;
 }
 
+
+
+/* Comments */
+
+#disqus_thread{
+	padding: 0 70px;
+}
+.comment-desc{
+	text-align: center;
+}
+/*#.dsq-reply h3:first-child{
+	display: none;
+}*/
