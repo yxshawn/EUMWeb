@@ -33,5 +33,25 @@ $(document).ready(function() {
 		if ( this.value == "" ) {
 			this.value = "输入您的电子邮件(xxx@xxx.com)";
 		}
-	}); 
+	});
+	
+	$( window ).scroll(function(){
+		if (  window.scrollY > 709 ){
+			$( ".float-box" ).fadeIn(300);
+		}else{
+			$( ".float-box" ).fadeOut(300);
+		}
+	});
+	
+	$("li.shareitem").unbind("mouseenter").unbind("mouseleave");
+	$("li.shareitem").bind("mouseenter",function(){
+		$(this).fadeTo(300, 1.0);
+	});
+	$("li.shareitem").bind("mouseleave",function(){
+		$(this).fadeTo(300, 0.5);
+	});
+	$("li.shareitem").fadeTo(0, 0.5);
+	
+	$( ".float-box" ).fadeOut(0);
+	
 }); 

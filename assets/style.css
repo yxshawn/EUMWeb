@@ -623,35 +623,7 @@ li.authorcomment .cmtinfo cite a{
 }
 /* @end */
 
-/* @group Share */
-.sharekit{
-	height : 300px;
-	right : 0;
-	margin-top: -150px;
-	position:fixed;
-	top: 50%;
-	width:145px;
-	z-index:10000;
-}
-.shareitem{
-	right: -100px;
-	background: url("/payload/shares.png") repeat scroll 0 0 transparent;
-	display:block;
-	height:47px;
-	margin-top:3px;
-	position:relative;
-}
 
-.share-fb{
-	background-position: 0 -47px !important;
-}
-.share-tw{
-	background-position: 0 0 !important;
-}
-.share-bz{
-	background-position: 0 -94px !important;
-}
-/* @end */
 
 /* @group Featues*/
 .grid1{
@@ -670,6 +642,15 @@ li.authorcomment .cmtinfo cite a{
 	line-height: 1.6;
 	word-spacing: -1px;
 	color: #666;
+}
+
+ul.all-features{
+	
+}
+ul.all-features li{
+	padding-left: 20px;
+	background: url('stars.jpg') no-repeat 0 7px;
+	padding-top: 5px;
 }
 
 .grid2{
@@ -733,10 +714,16 @@ li.authorcomment .cmtinfo cite a{
 .grid2 .column p:last-child{
 	margin-bottom: 18px;
 }
+.grid2.cent .column {
+	text-align: center;
+}
 
 /* Give some space for upper */
 .grid2 .column.space-up{
 	padding-top: 64px;
+}
+.grid2 .column.space-up-80{
+	padding-top: 80px;
 }
 
 div.space24{
@@ -1598,6 +1585,65 @@ div.space48{
 /*#.dsq-reply h3:first-child{
 	display: none;
 }*/
+
+/* @end */
+
+
+
+/* @group Float Box (for share kit)*/
+.float-box{
+	display: block;
+	height: 200px;
+	width: 110px;
+	position: fixed;
+	top: 50%;
+	margin-top: -1px;
+	margin-left: -100px;
+	z-index: 10000;
+	background-image: url('share-kit-icons.jpg') ;
+	background-repeat: no-repeat;
+	background-position: 108px -191px;
+}
+.float-box-list{
+	display: block;
+	height: 180px;
+	width: 100px;
+	padding-top: 15px;
+}
+.float-box-list li{
+	display: block;
+	height: 32px;
+	width: 32px;
+	float: right;
+	background: url('share-kit-icons.jpg');
+	clear: both;
+	margin-top: 10px;
+}
+.float-box-list li a{
+	display: block;
+	height: 32px;
+	width: 32px;
+	overflow: hidden;
+	text-indent: -10000px;
+	
+	
+}
+li.share-twitter {
+	background-position: 0 -48px;
+}
+li.share-buzz{
+	background-position: 0 -96px;
+}
+li.share-appstore{
+	height: 32px !important;
+	width: 96px !important;
+	background-position: 0 -144px;
+}
+li.share-appstore a{
+	display: block;
+	height: 32px !important;
+	width: 96px !important;
+}
 
 /* @end */
 
