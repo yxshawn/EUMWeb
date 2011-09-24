@@ -722,6 +722,10 @@ ul.all-features li{
 }
 
 /* Give some space for upper */
+.grid2 .column.space-up-32{
+	padding-top: 32px;
+}
+
 .grid2 .column.space-up{
 	padding-top: 64px;
 }
@@ -794,6 +798,37 @@ div.space48{
 	margin-left: 30px;
 }
 #app-midi-pad a.appstore{
+	margin-left: 40px;
+	margin-top: 20px;
+}
+
+
+#app-tune-master{
+	background: url('../images/app-tune-master-spec-main-feature.jpg') no-repeat top right #fff;
+}
+#app-tune-master-logo{
+	height: 198px;
+	width: 216px;
+	background: url('../images/app-tune-master-logo.jpg') no-repeat top left #fff;
+	margin-top: 110px;
+	margin-left: 30px;
+}
+#app-tune-master a.appstore{
+	margin-left: 40px;
+	margin-top: 20px;
+}
+
+#app-beat-master{
+	background: url('../images/app-beat-master-spec-main-feature.jpg') no-repeat top right #fff;
+}
+#app-beat-master-logo{
+	height: 198px;
+	width: 216px;
+	background: url('../images/app-beat-master-logo.jpg') no-repeat top left #fff;
+	margin-top: 110px;
+	margin-left: 30px;
+}
+#app-beat-master a.appstore{
 	margin-left: 40px;
 	margin-top: 20px;
 }
@@ -1707,6 +1742,37 @@ span.question{
 
 /* @end */
 
+
+/* @group Music*/
+.audios{
+	width: 768px;
+	padding-left: 102px;
+}
+.audio-cover{
+	height: 187px;
+	width: 187px;
+	float: left;
+}
+.audio-item{
+	padding-bottom: 36px;
+}
+.audio-item h3{
+	font-size: 24px;
+	color: #137fd5;
+	font-weight: normal;
+	padding-left: 223px;
+	padding-top: 36px;
+}
+.audio-item h3 span{
+	color: #aaa;
+	font-style: italic;
+	font-size: 14px;
+}
+.audio-item .sound-cloud{
+	padding-top: 30px;
+	padding-left: 223px;
+}
+/* @end */
 /* Thanx for Espresso! It helps me a lot.*/
 /* Get Espresso : http://www.macrabbit.com/ */
 /* by Shawn */

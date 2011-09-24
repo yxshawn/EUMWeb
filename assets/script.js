@@ -4,6 +4,7 @@
 	http://ezse.com/eum/
 	AUG 2011
 */
+var disqus_developer = 1;
 $(document).ready(function() {
 	$(".app-item").unbind("mouseenter").unbind("mouseleave");
 	$(".app-item").bind("mouseenter",function(){
@@ -36,7 +37,7 @@ $(document).ready(function() {
 	});
 	
 	$( window ).scroll(function(){
-		if (  window.scrollY > 709 ){
+		if (  window.scrollY > 546 ){
 			$( ".float-box" ).fadeIn(300);
 		}else{
 			$( ".float-box" ).fadeOut(300);
