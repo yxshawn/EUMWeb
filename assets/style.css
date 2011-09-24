@@ -48,6 +48,9 @@ a.disabled:hover { text-decoration: none; }
 	text-indent: -1000000px;
 	overflow: hidden;
 }
+.center{
+	text-align: center;
+}
 /* @end */
 
 /* @group Header */
@@ -778,6 +781,24 @@ div.space48{
 	margin-left: 40px;
 	margin-top: 20px;
 }
+
+
+#app-midi-pad{
+	background: url('../images/app-midi-pad-spec-main-feature.jpg') no-repeat top right #fff;
+}
+#app-midi-pad-logo{
+	height: 198px;
+	width: 216px;
+	background: url('../images/app-midi-pad-logo.jpg') no-repeat top left #fff;
+	margin-top: 110px;
+	margin-left: 30px;
+}
+#app-midi-pad a.appstore{
+	margin-left: 40px;
+	margin-top: 20px;
+}
+
+
 /* @end */
 
 /* @group Quote */
@@ -1647,7 +1668,44 @@ li.share-appstore a{
 
 /* @end */
 
+/* @group FAQ and Slides*/
+.faq-item{
+	width: 700px;
+	margin-top: 48px;
+	padding-left: 136px;
+}
+.faq-item h2{
+	padding-top: 5px;
+	font-size: 14px;
+	height: 35px;
+}
+.faq-item .anwser{
+	width: 680px;
+}
+.faq-item p,
+.faq-item .anwser p{
+	font-size: 14px;
+	margin-bottom: 10px;
+}
+span.question{
+	font-size: 30px;
+	color: #ccc;
+	padding-right: 20px;
+}
+.faq-item .anwser.flexslider{
+	/*margin-left: 50px;*/
+	height: 440px;
+	width: 700px;
+	border: solid 5px #eee;
+}
+.faq-item .flexslider .flex-caption{
+	text-shadow: 0 1px 0 #FFF !important;
+	background-color: rgba(255,255,255,0.9) !important;
+	color: #137fd5;
+	margin-bottom: 0 !important;
+}
 
+/* @end */
 
 /* Thanx for Espresso! It helps me a lot.*/
 /* Get Espresso : http://www.macrabbit.com/ */

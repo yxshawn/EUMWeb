@@ -54,4 +54,11 @@ $(document).ready(function() {
 	
 	$( ".float-box" ).fadeOut(0);
 	
+	$( ".anwser.flexslider" ).flexslider({
+		animation: "fade",
+		slideshow: false,
+		keyboardNav: false,
+		directionNav:false
+	});
+	
 }); 
