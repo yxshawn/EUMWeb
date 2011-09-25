@@ -4,7 +4,7 @@
 	http://ezse.com/eum/
 	AUG 2011
 */
-var disqus_developer = 1;
+//var disqus_developer = 1;
 $(document).ready(function() {
 	$(".app-item").unbind("mouseenter").unbind("mouseleave");
 	$(".app-item").bind("mouseenter",function(){
