@@ -113,7 +113,7 @@ div.body{
 	display: block;
 	margin-top: 80px;
 	padding: 0 10px;
-	min-height: 1024px;
+	min-height: 650px;
 }
 
 div.main-feature{
@@ -1772,6 +1772,52 @@ span.question{
 	padding-top: 30px;
 	padding-left: 223px;
 }
+/* @end */
+
+/* @group About */
+.member-item{
+	width: 768px;
+	padding-left: 102px;
+	padding-top: 36px;
+}
+
+.member-item .member-pic{
+	height:268px;
+	width:187px;
+	display: block;
+	float: left;
+}
+.member-item h3{
+	font-size: 24px;
+	color: #137fd5;
+	font-weight: normal;
+	padding-left: 223px;
+	padding-top: 36px;
+}
+.member-item p{
+	padding-top: 16px;
+	padding-left: 223px;
+	
+	margin-bottom: 5px;
+	font-size: 1.1417em;
+	line-height: 1.6;
+	word-spacing: -1px;
+	color: #666;
+}
+.member-item .member-aka{
+	color: #aaa;
+	font-style: italic;
+	font-size: 14px;
+}
+.eum-short-intro li{
+	padding-top: 5px;
+	color: #137fd5;
+	font-size: 14px;
+	letter-spacing: 1px;
+}
+
+
+
 /* @end */
 /* Thanx for Espresso! It helps me a lot.*/
 /* Get Espresso : http://www.macrabbit.com/ */
