@@ -13,7 +13,9 @@
 	<!-- InstanceBeginEditable name="head" -->
 	<!-- InstanceEndEditable -->
 </head>
+<!-- InstanceBeginEditable name="bodytag" -->
 <body>
+<!-- InstanceEndEditable -->
 	<div class="header">
 		<div class="logo">
 			<h1 class="hide">EUM - 专注iPhone/iPad上的音乐应用</h1>
@@ -21,13 +23,16 @@
 		</div><!-- End logo -->
 		<div class="menu">
         	<!-- InstanceBeginEditable name="navi-list" -->
-            <ul class="navi-list ">
+            <ul class="navi-list hl-home">
 			<!-- InstanceEndEditable --> 
+				<li class="navi-item" id="li-home"><a href="index.html">首页</a></li>
+            	<li class="navi-item" id="li-tuner"><a href="tuner.html">Pro Tuner</a></li>
+                <li class="navi-item" id="li-metronome"><a href="metronome.html">Pro Metronome</a></li> 
 				<li class="navi-item" id="li-daw-remote"><a href="daw-remote.html">DAW Remote</a></li>
 				<li class="navi-item" id="li-midi-pad"><a href="midi-pad.html">MIDI Pad</a></li>
-				<li class="navi-item" id="li-beat-master"><a href="beat-master.html">BeatMaster</a></li>
-				<li class="navi-item" id="li-tune-master"><a href="tune-master.html">TuneMaster</a></li>
 				<li class="navi-item" id="li-more"><a href="more.html">更多<p></p></a></li>
+                
+                
 			</ul><!-- End navi-list -->
 		</div><!-- End menu -->
 		<div class="clr"></div>
@@ -36,23 +41,29 @@
 	<div class="body">
 		<!-- InstanceBeginEditable name="Content" -->
 		
-		<div class="main-feature"><img src="../images/main-feature.jpg" /></div>
+		<div class="main-feature"><img src="../images/main-feature.jpg" border="0" usemap="#Map" />
+		  <map name="Map">
+		    <area shape="rect" coords="113,43,338,486" href="metronome.html" alt="Pro Metronome">
+		    <area shape="rect" coords="383,41,607,477" href="tuner.html" alt="Pro Tuner">
+		    <area shape="rect" coords="651,40,878,479" href="daw-remote.html" alt="DAW Remote">
+		  </map>
+		</div>
+		
 		<div class="main-slogan big-div">
 			<h2 id="main-slogan" class="stc">我们专注于设计音乐相关的APP</h2>
-			<p class="slogan-desc">不久之后所有EUM出品的应用，中国区免费.</p>
+			<p class="slogan-desc hide">不久之后所有EUM出品的应用，中国区免费.</p>
 			<!--<p class="slogan-desc">所有EUM出品的应用，中国区免费(<a href="why-free.html">为什么这样做</a>)</p>-->
 		</div>
 		<div class="apps" id="apps-container">
 			<h2 class="hide">Featured APPs</h2>
+			<h3 class="app-item stc" id="app-tuner"><a href="tuner.html">ProTuner</a></h3>
+			<p class="hide">专为吉他设计的调音器。内置91种调音模式，外加真实乐器的参考音。</p>
+			<h3 class="app-item stc" id="app-metronome"><a href="metronome.html">ProMetronome</a></h3>
+			<p class="hide">强大的节拍器，不仅可以发出声音，还可以利用闪光灯或屏幕按节拍发光。让你不仅可以听到节拍，还可以看到！</p>
 			<h3 class="app-item stc" id="app-dawremote"><a href="daw-remote.html">DAW Remote</a></h3>
 			<p class="hide">DAW Remote 是专为DAW软件设计的走带控制器. 尤其可在Apple Logic下获得最好效果. </p>
 			<h3 class="app-item stc" id="app-midipad"><a href="midi-pad.html">MIDI Pad</a></h3>
 			<p class="hide">MIDI Pad是专为DJ/VJ设计的无线MIDI控制器,它有一个推子4个按钮和一个XY控制器. 并且还可把Micphone的信号和各种传感器的信号转换成MIDI信号. </p>
-			<h3 class="app-item stc" id="app-beatmaster"><a href="beat-master.html">Beat Master</a></h3>
-			<p class="hide">Beat Master是我们的OEM项目, 它是一个功能强大的节拍器.</p>
-			<h3 class="app-item stc" id="app-tunemaster"><a href="tune-master.html">Tune Master</a></h3>
-			<p class="hide">Tune Master是我们的OEM项目, 它是一个很好用的乐器调音器.
-			</p>
 			<div class="clr"></div>
 		</div><!-- end apps-->
 		<div class="subsc" >
@@ -65,7 +76,7 @@
 			<form action="http://ezse.us2.list-manage.com/subscribe/post?u=9d5736b4725edf545b49f0cf1&amp;id=b2c9efb8fa" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
 				<fieldset>
 				
-			<input type="text" value="输入您的电子邮件(xxx@xxx.com)" name="EMAIL" class="required email text-input" size="40" id="mce-EMAIL-cn">
+			<input type="text" value="输入您的电子邮件(xxx@me.com)" name="EMAIL" class="required email text-input" size="40" id="mce-EMAIL-cn">
 			<input type="submit" value="开始订阅" name="subscribe" id="mc-embedded-subscribe" class="btn btn-primary"></fieldset>
 			
 			</form>

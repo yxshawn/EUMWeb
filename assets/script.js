@@ -27,12 +27,12 @@ $(document).ready(function() {
 		}
 	}); 
 	$( "#mce-EMAIL-cn" ).focus( function( e ) {
-		if ( this.value == "输入您的电子邮件(xxx@xxx.com)") {
+		if ( this.value == "输入您的电子邮件(xxx@me.com)") {
 			this.value = "";
 		}
 	}).blur( function( e ) {
 		if ( this.value == "" ) {
-			this.value = "输入您的电子邮件(xxx@xxx.com)";
+			this.value = "输入您的电子邮件(xxx@me.com)";
 		}
 	});
 	

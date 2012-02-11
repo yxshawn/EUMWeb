@@ -1,0 +1,75 @@
+@charset "UTF-8";
+/* CSS Document */
+/*
+	Designed by Shawn at EUM
+	http://ezse.com
+	http://ezse.com/eum/
+	AUG 2011
+*/
+/* @group reset */
+body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,form,fieldset,legend,button,input,textarea,th,td{margin:0;padding:0;}body,button,input,select,textarea{font:12px/1.5 tahoma,arial,sans-serif;}h1,h2,h3,h4,h5,h6{font-size:100%;}address,cite,dfn,em,var{font-style:normal;}code,kbd,pre,samp{font-family:courier new,courier,monospace;}small{font-size:12px;}ul,ol{list-style:none;}a{text-decoration:none;}a:hover{text-decoration:underline;}sup{vertical-align:text-top;}sub{vertical-align:text-bottom;}legend{color:#000;}fieldset,img{border:0;}button,input,select,textarea{font-size:100%;}table{border-collapse:collapse;border-spacing:0;}
+
+/* @end */
+/* @group base style */
+html{
+	margin: 0;
+	padding: 0;
+	background-color: #eee;
+}
+body, html{ 
+	line-height: 1.6em;
+	color: #333;
+	background-color: #eee;
+}
+
+body{
+	width: 738px;
+	margin: 0 auto;
+}
+
+a:link { color:#137fd5; }
+a:visited { color:#137fd5; }
+a:hover { color:#3d9dea; text-decoration:none;}
+a:active { color:#3d9dea; }
+a.disabled { color: #333; cursor: default; }
+a.disabled:hover { text-decoration: none; }
+
+.clearfix:after {content:".";display:block;height:0;clear:both;visibility:hidden;max-height:0;}
+.clearfix {display:inline-block;}
+* html .clearfix {height:1%;}
+.clearfix {display:block;}
+.clr {clear:both;height:0;}
+
+.hide {	display: none; }
+
+
+.stc{
+	text-indent: -1000000px;
+	overflow: hidden;
+}
+.center{
+	text-align: center;
+}
+/* @end */
+
+body table{
+	
+	width: 100%;
+	background-color: #fff;
+	
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+
+	/**/
+}
+.main{
+	margin: 40px 20px ;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	border: 1px solid #d2d1d1;
+}
+tr.title{
+	
+}

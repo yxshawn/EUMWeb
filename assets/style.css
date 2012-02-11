@@ -66,7 +66,7 @@ div.header{
 
 div.menu{
 	padding-top: 8px;
-	width: 600px;
+	width: 650px;
 	float: right;
 	font-size: 16px;
 }
@@ -79,6 +79,9 @@ li.navi-item{
 	overflow: hidden;*/
 }
 
+ul.hl-home li#li-home,
+ul.hl-tuner li#li-tuner,
+ul.hl-metronome li#li-metronome,
 ul.hl-daw-remote li#li-daw-remote,
 ul.hl-midi-pad li#li-midi-pad,
 ul.hl-beat-master li#li-beat-master,
@@ -117,7 +120,7 @@ div.body{
 }
 
 div.main-feature{
-	height: 560px;
+	height: 520px;
 	width: 100%;
 }
 div.app-main-feature{
@@ -303,6 +306,8 @@ a.works-item-link{
 	width: 224px;
 	display: block;
 }
+
+
 #app-dawremote{
 	background-image: url('app-daw-remote.png');
 }
@@ -315,6 +320,14 @@ a.works-item-link{
 #app-midipad{
 	background-image: url('app-midi-pad.png');
 }
+#app-tuner{
+	background-image: url('app-protuner.png');
+}
+#app-metronome{
+	background-image: url('app-prometronome.png');
+}
+
+
 .select-app-0{
 	background-position: 0 0;
 }
@@ -714,6 +727,15 @@ ul.all-features li{
 	color: #666;
 }
 
+.grid2 .column p.desc{
+	margin-bottom: 5px;
+	font-size: 1em;
+	line-height: 1.3;
+	word-spacing: -1px;
+	color: #ccc;
+}
+
+
 .grid2 .column p:last-child{
 	margin-bottom: 18px;
 }
@@ -732,6 +754,14 @@ ul.all-features li{
 .grid2 .column.space-up-80{
 	padding-top: 80px;
 }
+.grid2 .column.space-up-96{
+	padding-top: 98px;
+}
+
+.grid2 .column.space-up-128{
+	padding-top: 128px;
+}
+
 
 div.space24{
 	padding-top: 24px;
@@ -759,7 +789,7 @@ div.space48{
  padding-top: 20px;
  color: #888;
  text-align: center;
- height:80px;
+ height:100px;
  width: 100%;
  background-color: #fff;
 }
@@ -770,6 +800,41 @@ div.space48{
 
 
 /* @group Apps Page */
+
+
+#app-page-tuner{
+	background: url('../images/app-tuner-spec-main-feature.jpg') no-repeat top right #fff;
+}
+#app-page-tuner-logo{
+	height: 198px;
+	width: 216px;
+	margin-top: 110px;
+	margin-left: 30px;
+	display: none;
+}
+#app-page-tuner a.appstore{
+	margin-left: 176px;
+	margin-top: 380px;
+}
+
+
+#app-page-metronome{
+	background: url('../images/app-metronome-spec-main-feature.jpg') no-repeat top right #fff;
+}
+#app-page-metronome-logo{
+	height: 198px;
+	width: 216px;
+	margin-top: 110px;
+	margin-left: 30px;
+	display: none;
+}
+#app-page-metronome a.appstore{
+	margin-left: 176px;
+	margin-top: 380px;
+}
+
+
+
 
 #app-daw-remote{
 	background: url('../images/app-daw-remote-spec-main-feature.jpg') no-repeat top right #fff;
@@ -1817,6 +1882,19 @@ span.question{
 }
 
 
+
+body.coming-soon{
+
+}
+body.coming-soon
+.float-box{
+	margin-left: -99999px;
+	overflow: hidden;
+}
+body.coming-soon
+a.appstore{
+	background: url('../images/comingsoon-on-appstore.jpg') no-repeat top left;
+}
 
 /* @end */
 /* Thanx for Espresso! It helps me a lot.*/

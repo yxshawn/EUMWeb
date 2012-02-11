@@ -14,3 +14,15 @@ h1,h2,h3,h4,h5,h6{
 .apps{
 	background-image: url('app-desc-cn.jpg') !important;
 }
+
+#app-page-metronome{
+	background: url('../images/app-metronome-spec-main-feature-cn.jpg') no-repeat top right #fff;
+}
+#app-page-tuner{
+	background: url('../images/app-tuner-spec-main-feature-cn.jpg') no-repeat top right #fff;
+}
+
+body.coming-soon
+a.appstore{
+	background: url('../images/comingsoon-on-appstore-cn.jpg') no-repeat top left;
+}

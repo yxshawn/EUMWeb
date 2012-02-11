@@ -13,7 +13,9 @@
 	<!-- TemplateBeginEditable name="head" -->
 	<!-- TemplateEndEditable -->
 </head>
+<!-- TemplateBeginEditable name="bodytag" -->
 <body>
+<!-- TemplateEndEditable -->
 	<div class="header">
 		<div class="logo">
 			<h1 class="hide">EUM - 专注iPhone/iPad上的音乐应用</h1>
@@ -23,11 +25,14 @@
         	<!-- TemplateBeginEditable name="navi-list" -->
             <ul class="navi-list ">
 			<!-- TemplateEndEditable --> 
+				<li class="navi-item" id="li-home"><a href="../cn/index.html">首页</a></li>
+            	<li class="navi-item" id="li-tuner"><a href="../cn/tuner.html">Pro Tuner</a></li>
+                <li class="navi-item" id="li-metronome"><a href="../cn/metronome.html">Pro Metronome</a></li> 
 				<li class="navi-item" id="li-daw-remote"><a href="../cn/daw-remote.html">DAW Remote</a></li>
 				<li class="navi-item" id="li-midi-pad"><a href="../cn/midi-pad.html">MIDI Pad</a></li>
-				<li class="navi-item" id="li-beat-master"><a href="../cn/beat-master.html">BeatMaster</a></li>
-				<li class="navi-item" id="li-tune-master"><a href="../cn/tune-master.html">TuneMaster</a></li>
 				<li class="navi-item" id="li-more"><a href="../cn/more.html">更多<p></p></a></li>
+                
+                
 			</ul><!-- End navi-list -->
 		</div><!-- End menu -->
 		<div class="clr"></div>
